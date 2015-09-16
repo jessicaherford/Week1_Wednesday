@@ -169,8 +169,8 @@ numCopy;
 ```javascript
 var nums = [23, 18, 9, 2];
 
-nums.splice(1, 0, 99, 33); // 1 is the position we're adding to. 0 is how many items we're removing. 99, 33 are the items we're adding
-// []
+nums.splice(1, 0, 99, 33); // 1 is the position we'll place new items. 0 is how many items we're removing. 99, 33 are the items we're adding
+// []  -- removed items
 
 nums;
 //[23, 99, 33, 9, 2]
@@ -182,6 +182,16 @@ pets.splice(0, 3);
 
 pets;
 // ['bird']
+
+//splice an Array into an Array
+
+var birds = ['hawk', 'eagle', 'falcon'];
+
+birds.splice(2, 0, ['duck', 'duck', 'goose']);
+//[]
+
+birds;
+// ['hawk', 'eagle', ['duck', 'duck', 'goose'], 'falcon']
 ```
 ##Array Exercise
 Open main.js and write your answers to index.html
