@@ -1,6 +1,5 @@
 #Outline for Wednesday 9/16
 - Recap yesterday, go over homework
-- In Class Basic JS Exercise
 - Introduce Arrays
 - In Class Array Exercise (pairs)
 
@@ -14,7 +13,7 @@
 
 //4. Declare two variables with string values. Create a third variable that concatenates them.
 
-//5. Add, subract, multiply and divide the strings '5' and '3'. Observe and explain the results.
+//5. Add, subtract, multiply and divide the strings '5' and '3'. Observe and explain the results.
 
 //6. Create a prompt that asks a user to pick a number. Double the answer.
 
