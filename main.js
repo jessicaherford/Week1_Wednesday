@@ -16,39 +16,56 @@
 
 // 5. Write 'The current length of the array is....' using the .length method
 
-// Use the following Array for questions 6-10:
+// Use the following Array for questions 6-11:
 var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
 // 6. Change 'mouse' to 'keyboard'
 
-// 7. Declare a variable called lastItem whose using .pop() Add two new items to lastItem, on at the beginning and one at the end.
+// 7. Combine all of the elements of the array into a string.
 
-// 8. Create a new Array called itemLast. The items should be the same as lastItem, only in reverse order.
+// 8. Declare a variable called lastItem whose using .pop() Add two new items to lastItem, on at the beginning and one at the end.
 
-// 9. Remove the first item of itemLast.
+// 9. Create a new Array called itemLast. The items should be the same as lastItem, only in reverse order.
 
-// 10. Remove all items from itemLast (No need to write to the document. Just console.log to test your results)
+// 10. Remove the first item of itemLast.
 
-// Use the following array for questions 11-14:
-var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
+// 11. Remove all items from itemLast (No need to write to the document. Just console.log to test your results)
 
-// 11. Arrange the items alphabetically. Store this Array as orderedPeople
-
-// 12. Add two new people after 'Doug'
-
-// 13. Remove everybody except 'Andrea' and 'Ted'
-
-// 14. Add a new person to the beginning of the Array
-
-// 15. Using the Arrays below, create a single Array called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
+// 12. Using the Arrays below, create a single Array called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
 var firstArray = [12, 5, 9, 27];
 var secondArray = ['fish', 'dog'];
 
-// BONUS: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
+// Use the following array for questions 13-16:
+var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 
+// 13. Add two new people after 'Doug'
+
+// 14. Remove everybody except 'Andrea' and 'Ted'
+
+// 15. Add a new person to the beginning of the Array
+
+// 16. Arrange the items alphabetically. Store this Array as orderedPeople
+
+// 17. Create an array of arrays with the following three arrays:
+var array1 = ["Fido", "Spot", "Rex", "Sparky"]
+var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"]
+var array3 = ["White", "Black", "Spotted", "Tri-color"]
+
+// Goal:
+var array4 = [
+                ["Fido", "Spot", "Rex", "Sparky"],
+                ["Bulldog", "Lab", "Dalmation", "Beagle"],
+                ["White", "Black", "Spotted", "Tri-color"]
+              ]
+
+// 18. Remove "Sparky" and "White" from the above array of arrays.
+
+// BONUS 1: Try to arrange the following items from smallest to largest:
+var sortingNumbers = [2, 5, 98, 55, 77, 300]
+// Explain why it doesn't sort as expected.
+
+// BONUS 2: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
 var array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
-
-
 
 //Goal
 var array2 = ['plant', 17, 2, 'Bill', 'dog'];

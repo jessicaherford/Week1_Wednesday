@@ -29,6 +29,7 @@
 ```
 ##Carryover from Monday
 Strings can be added just like numbers, this is called `concatenation`.
+![](http://www.reactiongifs.com/r/com.gif)
 ```javascript
 var addWords = 'Look!' + ' I am a concatenated string!';
 console.log(addWords);
@@ -89,7 +90,7 @@ alert('This is a test!');
 
 [Array Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-An `Array` is a list-like object that is made up of a collection of `values` mapped to corresponding integer `keys`. Values can be added or removed through various `methods` performed on the array. Arrays are zero-indexed, meaning the first position has a `key` of 0, and the last position has a key of the Array's length - 1.
+An `Array` is a list-like object that is made up of a collection of `values` mapped to corresponding integer `keys`. Values can be added or removed through various `methods` performed on the array. Arrays are zero-indexed, meaning the first position has a `key` of 0, and the last position has a key of the Array's length - 1. Arrays will always preserve ordering, which means they will remember the order in which you added or defined things. Not everything in JavaScript preserves ordering so remember this special property of Arrays!
 
 ```javascript
 var cars = ['Volkwagen', 'Audi', 'Mercedes', 'BMW'];
