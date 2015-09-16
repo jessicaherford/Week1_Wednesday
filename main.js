@@ -43,3 +43,12 @@ var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 // 15. Using the Arrays below, create a single Array called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
 var firstArray = [12, 5, 9, 27];
 var secondArray = ['fish', 'dog'];
+
+// BONUS: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
+
+var array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
+
+
+
+//Goal
+var array2 = ['plant', 17, 2, 'Bill', 'dog'];
