@@ -65,7 +65,14 @@ document.write('Hello World');
 console.log('Hello World');
 // displays string in console
 ```
-When would you want to use console.log? Document write?
+What if you want to write a certain element to the page?
+```javascript
+document.write("<h2>I'm and h2 element!</h2>");
+
+var name = 'Caleb';
+
+document.write("<p>Hello, my name is " + name + " and I'm learning JS!</p>");
+```
 
 ###prompt() and alert()
 ```javascript
@@ -148,5 +155,32 @@ meals[1] = 'brunch';
 meals;
 // ['breakfast', 'brunch', 'dinner'];
 ```
+###Copy an Array
+```javascript
+var nums = [23, 18, 9, 2];
 
+var numCopy = nums.slice();
+
+numCopy;
+// [23, 18, 9, 2]
+
+```
+###Modifying an Array with splice()
+```javascript
+var nums = [23, 18, 9, 2];
+
+nums.splice(1, 0, 99, 33); // 1 is the position we're adding to. 0 is how many items we're removing. 99, 33 are the items we're adding
+// []
+
+nums;
+//[23, 99, 33, 9, 2]
+
+var pets = ['dog', 'cat', 'turtle', 'bird'];
+
+pets.splice(0, 3);
+//['dog', 'cat', 'turtle']
+
+pets;
+// ['bird']
+```
 ##Array Exercise
