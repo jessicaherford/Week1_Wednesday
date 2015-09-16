@@ -184,3 +184,4 @@ pets;
 // ['bird']
 ```
 ##Array Exercise
+Open main.js and write your answers to index.html
