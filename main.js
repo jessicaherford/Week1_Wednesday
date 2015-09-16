@@ -2,11 +2,15 @@
 
 // For any methods that we didn't cover, please refer to the Array Documentation.
 // Discovering new things is fun and a great way to learn!!
-// Please console.log("Question#" + yourAnswer) after each question.
+// Please console.log("Question#") followed by console.log(yourAnswer) after each question.
 // If you would like, practice using document.write() as well. Use any elements you like!
 // ==========================================================================
 
 // 1. Declare a variable whose value is an empty Array. Use any method you choose to add at least 4 items to it.
+
+//console.log("Question 1");
+//console.log(yourAnswer);
+
 
 // 2. Add an additional item to the beginning of your Array.
 
@@ -17,8 +21,8 @@
 // 5. Write 'The current length of the array is....' using the .length method
 
 // Use the following Array for questions 6-11:
-var things = ['mug', 'book', 'mouse', 'plant', [1, 3, 5], 'sunglasses'];
-console.log(things);
+var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
+
 // 6. Change 'mouse' to 'keyboard'
 
 // 7. Combine all of the elements of the array into a string.
