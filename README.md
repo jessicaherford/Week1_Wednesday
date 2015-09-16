@@ -85,41 +85,68 @@ alert('This is a test!');
 An `Array` is a list-like object that is made up of a collection of `values` mapped to corresponding integer `keys`. Values can be added or removed through various `methods` performed on the array. Arrays are zero-indexed, meaning the first position has a `key` of 0, and the last position has a key of the Array's length - 1.
 
 ```javascript
-var cars = ['Honda', 'Toyota', 'Ford', 'BMW'];
+var cars = ['Volkwagen', 'Audi', 'Mercedes', 'BMW'];
 
 console.log(cars.length);
 // 4
 ```
+###Indexing into an Array
 To access an individual item in an Array, we index into it by calling the Array variable name, proceeded by [i], where i is the index of the `key` whose `value` we're seeking.
 
 ```javascript
 var zoo = ['zebra', 'rhino', 'penguin', 'monkey'];
 
-console.log(cars[2]);
-// Ford
+zoo[2];
+// 'penguin'
 ```
-Add to the end of an Array
+###Add item(s)to the end
 ```javascript
-var biggerZoo = zoo.push('panda');
+var zoo = ['zebra', 'rhino', 'penguin', 'monkey'];
+
+zoo.push('panda');
+// 5
+
+zoo;
 // ['zebra', 'rhino', 'penguin', 'monkey', 'panda']
 ```
-Remove from the end of an Array
+###Remove item from the end
 ```javascript
+var zoo = ['zebra', 'rhino', 'penguin', 'monkey', 'panda'];
+
 var freeAnimal = zoo.pop();
 // 'panda'
-console.log(zoo);
+
+zoo;
 // ['zebra', 'rhino', 'penguin', 'monkey']
 ```
-Add to the beginning of an Array
+###Add item(s) to the beginning
 ```javascript
-var biggerZoo = zoo.unshift('emu');
+var zoo = ['zebra', 'rhino', 'penguin', 'monkey'];
+
+zoo.unshift('emu');
+// 5
+
+zoo;
 // ['emu', 'zebra', 'rhino', 'penguin', 'monkey']
 ```
-Remove from the beginning of an Array
+###Remove item from the beginning
 ```javascript
+var zoo = ['emu', 'zebra', 'rhino', 'penguin', 'monkey'];
+
 var freeAnimal = zoo.shift();
 // 'emu'
-console.log(zoo);
+
+zoo;
 // ['zebra', 'rhino', 'penguin', 'monkey']
 ```
+###Overwrite item at specific index
+```javascript
+var meals = ['breakfast', 'lunch', 'dinner'];
+
+meals[1] = 'brunch';
+
+meals;
+// ['breakfast', 'brunch', 'dinner'];
+```
+
 ##Array Exercise
