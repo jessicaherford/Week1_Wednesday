@@ -194,4 +194,4 @@ birds;
 // ['hawk', 'eagle', ['duck', 'duck', 'goose'], 'falcon']
 ```
 ##Array Exercise
-Open main.js and write your answers to index.html
+Open index.html and main.js follow the instructions in the comments.
